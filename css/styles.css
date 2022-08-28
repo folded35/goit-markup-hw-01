@@ -28,6 +28,7 @@ body
 {
     font-family: var(--secondary-font);
     font-weight: 700;
+    font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
     color: var(--black-text-color);
@@ -39,6 +40,7 @@ body
 {
     font-family: var(--secondary-font);
     font-weight: 700;
+    font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
     color: var(--accent-text-color);
@@ -48,11 +50,11 @@ body
 .link
 {
     font-weight: 500;
+    font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--main-text-color);
     text-decoration: none;
-    cursor: pointer;
 }
 
 .list
@@ -69,11 +71,11 @@ body
 .list-item-link
 {
     font-weight: 500;
+    font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--second-text-color);
     text-decoration: none;
-    cursor: pointer;
 }
 
 .list-item-link:hover,
@@ -92,6 +94,7 @@ body
 .section-title
 {
     font-weight: 900;
+    font-size: 44px;
     line-height: 1.36;
     text-align: center;
     letter-spacing: 0.06em;
@@ -102,6 +105,7 @@ body
 .btn
 {
     font-weight: 700;
+    font-size: 16px;
     line-height: 1.87;
     display: flex;
     align-items: center;
@@ -116,6 +120,7 @@ body
 .caption
 {
     font-weight: 700;
+    font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
@@ -124,6 +129,7 @@ body
 
 .text
 {
+    font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--second-text-color);
@@ -132,6 +138,7 @@ body
 .title
 {
     font-weight: 700;
+    font-size: 36px;
     line-height: 1.16;
     text-align: center;
     letter-spacing: 0.03em;
@@ -141,6 +148,7 @@ body
 .team-name
 {
     font-weight: 500;
+    font-size: 16px;
     line-height: 1.18;
     text-align: center;
     letter-spacing: 0.03em;
@@ -149,6 +157,7 @@ body
 
 .team-position
 {
+    font-size: 16px;
     line-height: 1.18;
     text-align: center;
     letter-spacing: 0.03em;
@@ -164,6 +173,7 @@ body
 {
     font-family: var(--secondary-font);
     font-weight: 700;
+    font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
     color: var(--third-text-color);
@@ -178,6 +188,7 @@ body
 
 .list-item-link-one
 {
+    font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--third-text-color);
@@ -187,6 +198,7 @@ body
 
 .list-item-link-two
 {
+    font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
@@ -224,6 +236,7 @@ body
 .button
 {
     font-weight: 500;
+    font-size: 16px;
     line-height: 1.62;
     text-align: center;
     letter-spacing: 0.03em;
@@ -243,6 +256,7 @@ body
 .section-title-portfolio
 {
     font-weight: 700;
+    font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
     color: var(--main-text-color);
@@ -250,6 +264,7 @@ body
 
 .project
 {
+    font-size: 16px;
     line-height: 1.87;
     letter-spacing: 0.03em;
     color: var(--second-text-color);
