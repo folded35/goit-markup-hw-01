@@ -11,6 +11,7 @@
 
     /* Backround colors */
     --accent-bg-color: #2F303A; 
+    --team-section-bg-color: #f5f4fa;
 
     /* Others */
     --black-text-color: #000;
@@ -22,17 +23,10 @@ body
     background: var(--third-text-color);
 }
 
-*/ reset */
+/* reset */
 
-h1,h2,h3,h4,h5,h6, {
-    margin: 0;
-}
-
-p {
-    margin: 0;
-}
-
-ul {
+h1, h2, h3, p
+{
     margin: 0;
 }
 
@@ -55,17 +49,21 @@ ul {
     padding-right: 15px;;
     margin-left: auto;
     margin-right: auto;
-    outline: 2px solid red;
 }
 
 /* Header */
+
+.header 
+{
+    border-bottom: 1px solid #ECECEC;
+}
 
 .header-container
 {
     display: flex;
     align-items: center;
-    padding: 32px;
-    border-bottom: 1px solid #ECECEC;
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 
 
@@ -140,18 +138,21 @@ ul {
 
 /* Main */
 
-.main-section
+.section
 {
-    background-color: var(--accent-bg-color);
+    padding: 94px 0;
 }
 
-.title-container
+.main-section
 {
-    padding: 200px 244px 200px 244px;
+    padding: 200px 0;
+    background-color: var(--accent-bg-color);
 }
 
 .section-title
 {
+    margin-right: auto;
+    margin-left: auto;
     width: 696px;
     font-weight: 900;
     font-size: 44px;
@@ -184,7 +185,6 @@ ul {
 {
     display: flex;
     gap: 30px;
-    margin-top: 94px;
 }
 
 .caption
@@ -206,6 +206,19 @@ ul {
     color: var(--second-text-color);
 }
 
+.section-pic
+{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+img
+{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
 .pic-list
 {
     display: flex;
@@ -220,15 +233,29 @@ ul {
     margin-right: auto;
 }
 
+.team-section
+{
+    background-color: var(--team-section-bg-color);
+}
+
 .title
 {
-    margin-top: 94px;
+    margin-bottom: 50px;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--main-text-color);
+}
+
+.description
+{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
 }
 
 .team-name
@@ -253,6 +280,7 @@ ul {
 
 .footer
 {
+    padding: 60px 0;
     background-color: var(--accent-bg-color);
 }
 
@@ -280,44 +308,36 @@ ul {
     text-decoration: none;
 }
 
-.footer-logo,
-.nav-footer-logo
-{
-    margin-bottom: 20px;
-}
-
 .contacts-address
 {
     font-style: normal;
+    margin-top: 20px;
 }
 
-.address-list
+.list-address
 {
-    margin-top: 20px;
     gap: 10px;
 }
 
 .list-item-link-one
 {
-    margin-bottom: 10px;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--third-text-color);
     text-decoration: none;
-    cursor: pointer;
 }
 
 .list-item-link-two
 {
-    margin-bottom: 10px;
+    padding-top: 10px;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
-    cursor: pointer;
     text-decoration: none;
 }
+
 
 .list-item-link-one:hover,
 .list-item-link-one:focus
@@ -337,7 +357,6 @@ ul {
 {
     display: flex;
     gap: 8px;
-    margin-top: 94px;
     justify-content: center;
 }
 
@@ -377,15 +396,18 @@ ul {
 
 .pic-list-portfolio
 {
+    gap: 30px;
     margin-top: 50px;
     display: flex;
     flex-wrap: wrap;
-    margin-right: auto;
 }
 
-.list-item-pic
+.section-project
 {
-    margin-right: ;
+    padding: 20px 24px;
+    border-left: 1px solid #EEEEEE;
+    border-right: 1px solid #EEEEEE;
+    border-bottom: 1px solid #EEEEEE;
 }
 
 .section-title-portfolio
@@ -404,11 +426,4 @@ ul {
     line-height: 1.87;
     letter-spacing: 0.03em;
     color: var(--second-text-color);
-}
-
-.footer-container
-{
-    height: 252px;
-    padding-top: 60px;
-
 }
